@@ -2563,6 +2563,53 @@ footer .copyright span:last-child::after {
     color: #888;
     font-style: italic;
 }
+/* Adjust spacing between sections */
+#resume {
+    padding-top: 6rem; /* Adjust as needed */
+    padding-bottom: 6rem; /* Adjust as needed */
+}
+
+#resume .resume-header {
+    margin-bottom: 1.5rem; /* Reduce margin between headers */
+}
+
+/* Bullet points styling */
+#resume .timeline-content ul {
+    font-size: 1.3rem; /* Slightly larger font size */
+    padding-left: 1.5rem;
+    list-style-type: disc;
+    margin-bottom: 1rem; /* Add margin after bullet points */
+}
+
+#resume .timeline-content ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Key Skills styling */
+#resume .timeline-content .key-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.9rem; /* Add margin after key skills */
+}
+
+#resume .timeline-content .key-skills span {
+    background-color: #e0e0e0; /* Light gray background for key skills */
+    padding: 0.2rem 0.9rem; /* Adjust padding for better spacing */
+    border-radius: 3px;
+    font-size: 1.3rem; /* Slightly larger font size */
+    color: #333;
+}
+
+/* Bold "Key Skills Acquired" */
+#resume .timeline-content p strong {
+    font-weight: bold;
+}
+
+/* Ensure no background on timeline-wrap */
+#resume .timeline-wrap {
+    background: none;
+}
 
 
 /*# sourceMappingURL=main.css.map */
